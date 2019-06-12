@@ -1,5 +1,8 @@
 const express = 'express';
-
+//--
+const userRouter = require('./users/userRouter');
+const postRouter = require('./posts/postRouter');
+//--
 const server = express();
 
 server.get('/', (req, res) => {
